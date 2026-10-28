@@ -1,0 +1,21 @@
+/* The landing page in European Portuguese (pt-PT). */
+window.I18N.add({
+  _title: 'Demonstrações de sites para salões | Cabeleireiro, barbearia, unhas e tatuagem | Autisync',
+  _description: 'Quatro sites animados de demonstração para negócios de beleza: cabeleireiro, barbearia, estúdio de unhas e estúdio de tatuagem, todos ligados ao mesmo CRM de demonstração.',
+  _ogDescription: 'Quatro sites de demonstração animados para negócios de beleza inventados, todos ligados a um CRM de demonstração da Autisync.',
+  'h.skip': 'Saltar para os quatro estilos', 'h.mark': 'Autisync · sites de demonstração',
+  'h.kicker': 'Uma demonstração, quatro tipos de negócio de beleza',
+  'h.title': 'Escolha um estilo:', 'h.titleSr': 'Salão, barbearia, unhas ou tatuagem',
+  'h.lede': 'Quatro sites animados e premium para quatro negócios muito diferentes. Abra um para ver como poderia ser o seu. Todas as marcações e pedidos dos quatro entram na mesma conta de demonstração do CRM: Maré Hair &amp; Beauty, em Manchester.',
+  'h.stylesLabel': 'Os quatro estilos',
+  'h.k1': 'Cabeleireiro e beleza', 'h.d1': 'Suave e editorial. Cabelo a esvoaçar ao ar do secador e uma tesoura que faz um corte perfeito enquanto desce a página.', 'h.open1': 'Abrir o salão',
+  'h.k2': 'Barbearia', 'h.d2': 'Forte e vintage. Uma máquina que zumbe pela página e deixa um degradê, um poste a girar e um antes e depois que acompanha o scroll.', 'h.open2': 'Abrir a barbearia',
+  'h.k3': 'Estúdio de unhas', 'h.d3': 'Luxo divertido. Uma mão com as unhas pintadas uma a uma, uma paleta que muda a cor e brilhos por todo o lado.', 'h.open3': 'Abrir o estúdio de unhas',
+  'h.k4': 'Estúdio de tatuagem', 'h.d4': 'Escuro e com tinta. Uma máquina de tatuar que desenha na pele enquanto desce a página, salpicos de tinta e uma folha de flash.', 'h.open4': 'Abrir o estúdio de tatuagem',
+  'h.behindTitle': 'Por trás de cada um: o mesmo CRM',
+  'h.f1': 'Marcações online', 'h.f1t': 'Todas as páginas marcam diretamente na agenda de demonstração: horas livres reais, email de confirmação e lembrete na véspera.',
+  'h.f2': 'Pedidos como contactos', 'h.f2t': 'Noivas, noivos e padrinhos, ideias de nail art ou de tatuagem: cada pedido entra no CRM com o estilo de onde veio.',
+  'h.f3': 'Avaliações e novas marcações', 'h.f3t': 'Lembretes de teste de alergia, mensagens de «está na altura da manutenção» e pedidos de avaliação saem sozinhos.',
+  'h.ctaText': 'Quer um destes, animado e feito para o seu negócio?', 'h.cta': 'Quero um site assim →',
+  'h.foot': 'Sites de demonstração da <a href="https://www.autisync.com/pt" target="_blank" rel="noopener">Autisync</a>. Os quatro negócios são inventados; as marcações e mensagens entram na conta de demonstração Maré Hair &amp; Beauty (Demo).',
+});

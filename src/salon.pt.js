@@ -1,0 +1,77 @@
+/* Maré Hair & Beauty in European Portuguese (pt-PT). Prices in euros: the
+   GBP price ×1.15, rounded. */
+window.I18N.add({
+  _title: 'Maré Hair & Beauty | Cabelo, cor e sobrancelhas em Manchester',
+  _description: 'Cortes, coloração, balayage, sobrancelhas e pestanas no Northern Quarter, em Manchester. Marcação online num minuto. Site de demonstração da Autisync.',
+  _ogDescription: 'Cabelo e sobrancelhas, bem feitos. Marcação online num minuto. Site de demonstração da Autisync para um salão inventado.',
+  's.brandSub': 'Cabelo &amp; Beleza',
+  's.navServices': 'Serviços', 's.navCraft': 'O ofício', 's.navWork': 'Trabalhos', 's.navTeam': 'Equipa', 's.navVisit': 'Visitar', 's.navBook': 'Marcar',
+  's.kicker': 'Northern Quarter, Manchester · desde 2019',
+  's.heroTitle': 'Cabelo e sobrancelhas, <em>bem feitos</em>',
+  's.heroLede': 'Cortes, coloração, balayage, sobrancelhas e pestanas no Northern Quarter. Marque online num minuto e receba um lembrete na véspera.',
+  's.heroCta': 'Marcar online', 's.heroPrices': 'Ver os preços',
+  's.nextLabel': 'Próximo corte e brushing', 's.nextChecking': 'A consultar a agenda…',
+  's.factReviews': 'nas avaliações de clientes', 's.factPatch': 'Testes de alergia gratuitos', 's.factOpen': 'Aberto seis dias por semana',
+  's.altHero': 'Uma cabeleireira a fazer brushing a uma cliente', 's.scrollCue': 'Descer até aos serviços',
+  's.tagBlow': 'Brushing', 's.tagMin': '60 min',
+  's.mq1': 'Corte &amp; brushing', 's.mq2': 'Coloração completa', 's.mq4': 'Laminação de sobrancelhas', 's.mq5': 'Lifting de pestanas', 's.mq6': 'Noivas',
+
+  's.svcEyebrow': 'Serviços e preços', 's.svcTitle': 'O menu, <em>com preços</em>',
+  's.svcLede': 'Todas as marcações começam com uma breve consulta. Os preços incluem o acabamento. Paga com cartão no dia.',
+  's.altColour': 'Uma cliente a pintar o cabelo', 's.capColour': 'Cor, da raiz às pontas',
+  's.grpHair': 'Cabelo', 's.grpBrows': 'Sobrancelhas e pestanas', 's.grpBefore': 'Antes da coloração',
+  's.book': 'Marcar',
+  's.cutName': 'Corte e brushing', 's.cutPrice': '65 €', 's.min60': '60 min', 's.cutWho': 'com a Inês ou o Kai', 's.cutDesc': 'Consulta, lavagem, corte e brushing.',
+  's.colName': 'Coloração completa', 's.colPrice': '110 €', 's.min120': '2 horas', 's.colWho': 'com o Kai', 's.colDep': 'sinal de 25 €', 's.colDesc': 'Da raiz às pontas, com tonalizante e acabamento. Teste de alergia 48 horas antes.',
+  's.balPrice': '185 €', 's.min180': '3 horas', 's.balWho': 'com o Kai ou a Inês', 's.balDep': 'sinal de 45 €', 's.balDesc': 'Madeixas pintadas à mão, tonalizante, corte e acabamento. Natural e fácil de manter.',
+  's.browName': 'Laminação e coloração de sobrancelhas', 's.browPrice': '55 €', 's.min45': '45 min', 's.leahWho': 'com a Leah', 's.browDesc': 'Design, laminação e coloração. Teste de alergia 48 horas antes.',
+  's.lashName': 'Lifting e coloração de pestanas', 's.lashPrice': '60 €', 's.lashDesc': 'Pestanas levantadas e pintadas, que duram seis a oito semanas.',
+  's.patchName': 'Teste de alergia', 's.free': 'Grátis', 's.min10': '10 min', 's.anyWho': 'com qualquer pessoa da equipa', 's.patchDesc': 'Obrigatório 48 horas antes de qualquer coloração, incluindo sobrancelhas e pestanas.',
+  's.bridalK': 'Noivas', 's.bridalT': 'Provas no estúdio e, no dia, vamos ter consigo, até 32 km.', 's.bridalGo': 'Peça o pacote de noiva →',
+
+  's.craftEyebrow': 'O ofício', 's.craftTitle': 'Uma linha perfeita, <em>um corte de cada vez</em>',
+  's.st1': 'Conversa', 's.st1t': 'Primeiro falamos: como usa o cabelo e quanto tempo lhe dá de manhã.',
+  's.st2': 'Corte', 's.st2t': 'Com o cabelo molhado ou seco, conforme o seu cabelo. Sem pressas, nunca em série.',
+  's.st3': 'Acabamento', 's.st3t': 'Um brushing e alguns conselhos sinceros para ficar assim em casa.',
+  's.craftTag': 'Corte e brushing · 60 min',
+
+  's.aboutEyebrow': 'O estúdio', 's.aboutTitle': 'Um estúdio pequeno <em>com uma agenda cheia</em>',
+  's.aboutBody': 'A Inês abriu o Maré em 2019. Hoje somos três, uma cadeira de cada vez, e há sempre chá ao lume. Avisamos quando chega a altura de voltar, mandamos mensagem se vagar uma hora e guardamos as notas da sua cor, para ninguém ter de adivinhar.',
+  's.altSalon': 'Uma cliente descontraída na cadeira do salão',
+  's.stat1': 'média das avaliações de clientes', 's.stat2': 'teste de alergia antes de qualquer cor', 's.stat3': 'deslocamo-nos para casamentos', 's.miles': 'km', 's.stat4': 'profissionais, uma cadeira de cada vez',
+
+  's.workEyebrow': 'Trabalhos recentes', 's.workTitle': 'Cor suave, <em>linhas precisas</em>',
+  's.altTint': 'Coloração a ser aplicada no cabelo', 's.altStyling': 'Uma cabeleireira a finalizar o cabelo de uma cliente', 's.altWaves': 'Ondas penteadas, vistas de trás', 's.altLashes': 'Um lifting de pestanas a ser feito',
+  's.g1': 'Cor', 's.g2': 'Acabamento', 's.g3': 'Ondas', 's.g4': 'Pestanas',
+
+  's.teamEyebrow': 'A equipa', 's.teamTitle': 'Quem vai <em>cuidar de si</em>',
+  's.r1': 'Proprietária e cabeleireira sénior', 's.p1': 'Abriu o Maré em 2019. Cortes de precisão e as manhãs de noiva.',
+  's.r2': 'Colorista', 's.p2': 'Acobreados, balayage e correções de cor. É também o Kai que faz o seu teste de alergia.',
+  's.r3': 'Especialista em sobrancelhas e pestanas', 's.p3': 'Laminação, coloração e lifting. Rápida, delicada e sincera quanto à forma.',
+  's.r4': 'Receção', 's.p4': 'Responde às mensagens, muda marcações e trata do chá.',
+
+  's.revEyebrow': 'Palavras simpáticas', 's.revScore': 'média das avaliações de clientes na conta de demonstração', 's.revNav': 'Avaliações',
+  's.q1': '“O Kai é um génio com os acobreados. Marcar online é facílimo e recebo um lembrete na véspera.”',
+  's.q2': '“O melhor balayage que já fiz em Manchester. Estúdio lindo e ótimo café.”',
+  's.q3': '“A Leah fez-me as sobrancelhas e as pestanas. Rápida, delicada, e ficaram incríveis.”',
+  's.q4': '“Bom corte, sempre. Gostava que houvesse mais horários ao fim do dia, mas avisam sempre quando vaga alguma hora.”',
+
+  's.faqEyebrow': 'Bom saber', 's.faqTitle': 'Antes de <em>marcar</em>',
+  's.f1q': 'Preciso de fazer um teste de alergia?', 's.f1a': 'Sim, para qualquer coloração ou pintura, incluindo sobrancelhas e pestanas, pelo menos 48 horas antes. Demora dez minutos, é gratuito e pode marcá-lo online. Se fez um connosco nos últimos seis meses, não precisa de repetir.',
+  's.f2q': 'Pedem sinal?', 's.f2a': 'Só nas colorações mais longas: 25 € na coloração completa e 45 € no balayage, pagos online na marcação e descontados no preço do dia.',
+  's.f3q': 'E se precisar de cancelar ou mudar?', 's.f3a': 'Pode mudar ou cancelar sem custos até 48 horas antes, com o link da confirmação. Com menos de 48 horas, ficamos com o sinal, porque é difícil preencher três horas em cima da hora.',
+  's.f4q': 'Vou chegar tarde. O que acontece?', 's.f4a': 'Mande-nos uma mensagem. Se for possível, atendemos na mesma; se não, passamos a marcação para a próxima hora livre, sem complicações.',
+  's.f5q': 'Fazem penteados de noiva?', 's.f5a': 'Sim. Provas no estúdio e, na manhã do casamento, vamos ter consigo até 32 km. Diga-nos a data e quantas pessoas são, e enviamos o pacote de noiva.',
+  's.f6q': 'Como pago?', 's.f6a': 'Com cartão, no dia. Os sinais pagam-se online, na marcação.',
+
+  's.bookEyebrow': 'Marcar', 's.bookTitle': 'Fazer uma <em>marcação</em>',
+  's.bookLede': 'Escolha o serviço, a pessoa e a hora. Recebe a confirmação de imediato e um lembrete na véspera.',
+  's.depT': 'Sinal', 's.depV': '25 € na coloração completa, 45 € no balayage, descontados no preço',
+  's.chgT': 'Alterações', 's.chgV': 'Sem custos até 48 horas antes',
+
+  's.enqTitle': 'Noiva ou <em>marcação de grupo?</em>',
+  's.enqLede': 'Diga-nos a data e quantas pessoas são, e enviamos um plano. A Amy ou a Inês respondem no mesmo dia.',
+  's.o1': 'Penteado de noiva', 's.o2': 'Marcação de grupo', 's.o3': 'Consulta de coloração', 's.o4': 'Vale-oferta', 's.o5': 'Outro assunto',
+
+  's.fVisit': 'Visitar', 's.fContact': 'Contacto',
+});

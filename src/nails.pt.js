@@ -1,0 +1,61 @@
+/* Gloss Club Nail Studio in European Portuguese (pt-PT). Prices in euros:
+   the GBP price ×1.15, rounded. */
+window.I18N.add({
+  _title: 'Gloss Club Nail Studio | BIAB, gel e nail art em Manchester',
+  _description: 'BIAB, manicure de gel, pedicure e nail art pintada à mão no Northern Quarter, em Manchester. Marcação online num minuto. Site de demonstração da Autisync.',
+  _ogDescription: 'Dez pequenas obras-primas. Site de demonstração da Autisync para um estúdio de unhas inventado.',
+  'n.brandSub': 'Estúdio de unhas · Manchester',
+  'n.navMenu': 'Menu', 'n.navShades': 'Cores', 'n.navRitual': 'O ritual', 'n.navGallery': 'Galeria', 'n.navTeam': 'Equipa', 'n.navBook': 'Marcar',
+  'n.kicker': 'BIAB · gel · nail art · Northern Quarter',
+  'n.heroTitle': 'Dez pequenas <em>obras-primas</em>',
+  'n.heroLede': 'BIAB, gel e nail art pintada à mão no Northern Quarter. Duradouras, amigas das suas unhas naturais e marcadas online num minuto.',
+  'n.heroCta': 'Marcar unhas', 'n.heroMenu': 'Ver o menu',
+  'n.chip1': 'Até 3 semanas de brilho', 'n.chip2': 'Nail art desde 6 €', 'n.chip3': 'Material novo para cada cliente',
+  'n.badge': 'marque online ✦ gloss club ✦ ',
+  'n.pickLabel': 'Experimente uma cor:', 'n.shades': 'Cores',
+  'n.mq1': 'Manicure de gel', 'n.mq2': 'Nail art', 'n.mq3': 'Pedicure', 'n.mq4': 'Francesa',
+
+  'n.menuEyebrow': 'O menu', 'n.menuTitle': 'Escolha o seu <em>verniz</em>',
+  'n.menuLede': 'Todos os tratamentos incluem limar, cuidar das cutículas e uma pequena massagem às mãos. Paga com cartão no dia.',
+  'n.s1': 'Manicure de gel', 'n.s1d': 'Limar, cutículas e cor em gel. Dura até três semanas.', 'n.min45': '45 min', 'n.p1': '37 €',
+  'n.popular': 'O mais pedido', 'n.s2d': 'Gel construtor sobre as unhas naturais, para as fortalecer enquanto crescem.', 'n.min60': '60 min', 'n.p2': '46 €',
+  'n.s3': 'Manutenção de BIAB', 'n.s3d': 'A cada três ou quatro semanas, para manter o BIAB forte e bonito.', 'n.p3': '41 €',
+  'n.s4': 'Unhas de acrílico', 'n.s4d': 'Comprimento e forma em acrílico, com acabamento em cor de gel.', 'n.min75': '75 min', 'n.p4': '52 €',
+  'n.s5': 'Pedicure de gel', 'n.s5d': 'Banho, limar, cutículas e cor em gel nos pés.', 'n.p5': '44 €',
+  'n.s6': 'Mani + pedi luxo', 'n.s6d': 'As duas juntas, com esfoliação, massagem e toalhas quentes.', 'n.min105': '1 h 45 min', 'n.p6': '75 €',
+  'n.s7': 'Nail art', 'n.s7d': 'Desenhos pintados à mão, cromado, francesa e pedrinhas. Junta-se a qualquer serviço.', 'n.perTwo': 'por 2 unhas', 'n.p7': 'desde 6 €',
+  'n.s8': 'Remoção de gel', 'n.s8d': 'Remoção suave. Gratuita se marcar umas unhas novas connosco.', 'n.min20': '20 min', 'n.p8': '12 €',
+
+  'n.ritEyebrow': 'O ritual Gloss', 'n.ritTitle': 'Seis passos para unhas <em>que duram</em>',
+  'n.r1': 'Preparação: cutículas empurradas, nunca cortadas', 'n.r2': 'Forma: quadrada, amêndoa ou bailarina, à sua escolha', 'n.r3': 'Base: uma camada fina que agarra',
+  'n.r4': 'Cor: duas camadas finas, de ponta a ponta', 'n.r5': 'Secagem: sessenta segundos na lâmpada', 'n.r6': 'Top coat e óleo: o brilho',
+
+  'n.galEyebrow': 'Acabadas de fazer', 'n.galTitle': 'Diretamente da <em>mesa</em>',
+  'n.altColour': 'Mãos com verniz de várias cores', 'n.altMani': 'Uma cliente a fazer a manicure', 'n.altRed': 'Uma mão com unhas vermelhas brilhantes', 'n.altPedi': 'Uma pedicure a ser feita', 'n.altArt': 'Uma mão com nail art colorida', 'n.altTech': 'Uma manicure a pintar as unhas de uma cliente',
+  'n.wks': 'sem.', 'n.num1': 'de brilho com unhas de gel', 'n.num2': 'cores na parede', 'n.num3': 'artistas de unhas', 'n.num4': 'pequenas telas por visita',
+
+  'n.teamEyebrow': 'As artistas', 'n.teamTitle': 'Conheça as <em>mãos</em>',
+  'n.t1r': 'Fundadora · artista de unhas', 'n.t1s': 'Cor de eleição: Cherry Bomb',
+  'n.t2r': 'Especialista em BIAB', 'n.t2s': 'Cor de eleição: Ballet Slipper',
+  'n.t3r': 'Nail art e cromados', 'n.t3s': 'Cor de eleição: Gold Leaf',
+  'n.t4r': 'Pedicure e spa', 'n.t4s': 'Cor de eleição: Pistachio',
+
+  'n.loveEyebrow': 'Clientes felizes', 'n.loveTitle': 'Ditas com mãos <em>brilhantes</em>',
+  'n.q1': '“O meu BIAB durou quatro semanas e continuava como novo. A Ella é perfeccionista.”',
+  'n.q2': '“A Priya pintou-me cerejas minúsculas nas unhas no meu aniversário. Estou obcecada.”',
+  'n.q3': '“Marquei à meia-noite, recebi um lembrete na véspera e despachei-me na hora de almoço.”',
+  'n.q4': '“A mani-pedi luxo com a Rosie é a melhor hora do meu mês.”',
+
+  'n.faqEyebrow': 'Bom saber', 'n.faqTitle': 'Perguntas <em>respondidas</em>',
+  'n.f1q': 'Pedem sinal?', 'n.f1a': 'Só nas unhas de acrílico e na nail art com mais de uma hora: 12 € na marcação, descontados no preço do dia.',
+  'n.f2q': 'E se precisar de cancelar?', 'n.f2a': 'Pode mudar ou cancelar sem custos até 24 horas antes, com o link da confirmação. Com menos de 24 horas, ficamos com o sinal.',
+  'n.f3q': 'Preciso de fazer um teste de alergia?', 'n.f3a': 'Perguntamos sempre por alergias na primeira visita. Se já teve reação a gel ou acrílico, marque um teste de alergia gratuito pelo menos 48 horas antes.',
+  'n.f4q': 'Quanto tempo dura o BIAB?', 'n.f4a': 'Três a quatro semanas, e depois faz-se a manutenção. Se o mantiver, as unhas naturais crescem mais fortes por baixo.',
+  'n.f5q': 'Posso trazer o meu próprio desenho?', 'n.f5a': 'Sim, por favor. Envie uma foto com a marcação e a Hana diz-lhe o preço e o tempo de que precisa.',
+  'n.f6q': 'Tiram o gel de outro salão?', 'n.f6a': 'Claro. A remoção suave custa 12 €, ou é gratuita se marcar umas unhas novas connosco.',
+
+  'n.bookEyebrow': 'Marcar', 'n.bookTitle': 'Guarde o seu <em>lugar</em>', 'n.bookLede': 'Escolha a hora e está marcado. Confirmação imediata e um lembrete na véspera.',
+  'n.enqTitle': 'Despedida de solteira ou uma <em>ideia de nail art?</em>', 'n.enqLede': 'Diga-nos a data, quantas são, ou o que imaginou. A Priya responde no mesmo dia.',
+  'n.o1': 'Despedida de solteira ou aniversário', 'n.o2': 'Unhas de noiva', 'n.o3': 'Nail art personalizada', 'n.o4': 'Vale-oferta', 'n.o5': 'Outro assunto',
+  'n.fVisit': 'Visitar', 'n.fContact': 'Diga olá',
+});

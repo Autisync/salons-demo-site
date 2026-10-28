@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en-GB" data-style="salon">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Maré Hair &amp; Beauty | Hair, colour and brows in Manchester</title>
+  <meta name="description" content="Cuts, colour, balayage, brows and lashes in Manchester's Northern Quarter. Book online in a minute. A demo website by Autisync.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#F4FBFA">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Maré Hair &amp; Beauty (demo)">
+  <meta property="og:title" content="Maré Hair &amp; Beauty | Hair, colour and brows in Manchester">
+  <meta property="og:description" content="Hair and brows, done properly. Book online in a minute. A demo website by Autisync for a made-up salon.">
+  <link rel="icon" href="/favicon-salon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400..600&family=Jost:wght@300..600&display=swap">
+  <link rel="stylesheet" href="/core.css">
+  <link rel="stylesheet" href="/booking.css">
+  <link rel="stylesheet" href="/salon.css">
+  <script src="/config.js"></script>
+  <script src="/i18n.js"></script>
+  <!--@boot-->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"HairSalon","name":"Maré Hair & Beauty (demo)","description":"A made-up hair and beauty salon on a demo website by Autisync.","url":"https://salons-demo-site.vercel.app/salon","telephone":"+44 7700 900600","email":"hello@mare-studio.example","priceRange":"££","address":{"@type":"PostalAddress","streetAddress":"22 Oldham Street","addressLocality":"Manchester","postalCode":"M1 1JN","addressCountry":"GB"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"19:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"17:00"}]}
+  </script>
+</head>
+<body id="top">
+  <a class="skip" href="#book" data-i18n="c.skip">Skip to booking</a>
+  <!--@demo-bar-->
+
+  <header class="nav" data-nav data-track-section="Header">
+    <div class="wrap nav-row">
+      <a class="brand" href="/salon" data-keep-lang="/salon" aria-label="Maré Hair &amp; Beauty, home">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="23" fill="none" stroke="currentColor" stroke-width="1"/><path d="M9 30c4-9 7-9 10 0s6 9 10 0 7-9 10 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 20c3-5 5-5 7 0" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" opacity=".55"/></svg>
+        <span class="brand-name">Maré<small data-i18n="s.brandSub">Hair &amp; Beauty</small></span>
+      </a>
+      <nav class="nav-links" id="nav-links" aria-label="Main">
+        <a href="#services" data-i18n="s.navServices">Services</a>
+        <a href="#craft" data-i18n="s.navCraft">The craft</a>
+        <a href="#work" data-i18n="s.navWork">Work</a>
+        <a href="#team" data-i18n="s.navTeam">Team</a>
+        <a href="#visit" data-i18n="s.navVisit">Visit</a>
+      </nav>
+      <div class="nav-end">
+        <div class="lang" role="group" aria-label="Language" data-i18n-attr="aria-label=c.langLabel">
+          <button type="button" data-set-lang="en" aria-pressed="true" lang="en">EN</button>
+          <button type="button" data-set-lang="pt" aria-pressed="false" lang="pt-PT">PT</button>
+        </div>
+        <a class="btn btn-teal nav-book" href="#book" data-book data-i18n="s.navBook">Book</a>
+        <button class="menu-btn" type="button" data-menu aria-expanded="false" aria-controls="nav-links"><span class="sr" data-i18n="c.menu">Menu</span><i></i><i></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero: flowing hair in the air from a hairdryer -->
+    <section class="hero" data-track-section="Hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker" data-intro style="--d:0ms"><span class="kicker-line" aria-hidden="true"></span><span data-i18n="s.kicker">Northern Quarter, Manchester · since 2019</span></p>
+          <h1 class="hero-title" data-split data-i18n="s.heroTitle">Hair and brows, <em>done properly</em></h1>
+          <p class="lede" data-intro style="--d:650ms" data-i18n="s.heroLede">Cuts, colour, balayage, brows and lashes in the Northern Quarter. Book online in a minute, with a reminder the day before.</p>
+          <div class="hero-actions" data-intro style="--d:820ms">
+            <a class="btn btn-teal btn-lg" href="#book" data-book data-magnetic><span data-i18n="s.heroCta">Book online</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-4-4 4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a class="link-line" href="#services" data-i18n="s.heroPrices">See the prices</a>
+          </div>
+          <a class="next-free" href="#book" data-book data-next-free="Cut and finish" data-intro style="--d:1000ms">
+            <span class="nf-dot" aria-hidden="true"></span>
+            <span><span data-i18n="s.nextLabel">Next cut and finish</span> · <b><span data-nf-day data-i18n="s.nextChecking">Checking the diary…</span> <span data-nf-time></span></b> <span data-nf-staff></span></span>
+          </a>
+          <ul class="hero-facts" data-intro style="--d:1150ms">
+            <li><b>4.8</b> <span class="stars" aria-hidden="true">★★★★★</span><span data-i18n="s.factReviews">from client reviews</span></li>
+            <li data-i18n="s.factPatch">Free patch tests</li>
+            <li data-i18n="s.factOpen">Open six days</li>
+          </ul>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <svg class="air" viewBox="0 0 600 680" data-hair-scene>
+            <defs>
+              <linearGradient id="strand" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#17202A"/><stop offset=".55" stop-color="#0E7C7B"/><stop offset="1" stop-color="#7FD0CC"/></linearGradient>
+              <linearGradient id="strand2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A2A22"/><stop offset=".6" stop-color="#A76D4B"/><stop offset="1" stop-color="#E7B98F"/></linearGradient>
+              <linearGradient id="dryer" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBFAF7"/><stop offset="1" stop-color="#DDF3F2"/></linearGradient>
+              <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#DDF3F2"/><stop offset="1" stop-color="#DDF3F2" stop-opacity="0"/></radialGradient>
+            </defs>
+            <g class="rings">
+              <circle cx="330" cy="330" r="270" fill="#DDF3F2" opacity=".7"/>
+              <circle cx="330" cy="330" r="300" fill="none" stroke="#0E7C7B" stroke-width=".8" opacity=".35"/>
+              <circle cx="330" cy="330" r="236" fill="none" stroke="#0E7C7B" stroke-width=".6" stroke-dasharray="2 7" opacity=".5"/>
+            </g>
+            <g class="airflow" data-airflow></g>
+            <g class="strands" data-strands></g>
+            <g class="clip-tie">
+              <path d="M330 86c-14 0-22 8-22 18v14h44v-14c0-10-8-18-22-18z" fill="#17202A"/>
+              <rect x="304" y="112" width="52" height="12" rx="6" fill="#E9DCCB" stroke="#17202A" stroke-width="1.5"/>
+              <circle cx="330" cy="118" r="3" fill="#0E7C7B"/>
+            </g>
+            <g class="dryer-wrap"><g class="dryer" data-dryer>
+              <path d="M-6 330h76" stroke="#17202A" stroke-width="1.2" opacity=".35"/>
+              <rect x="22" y="352" width="34" height="118" rx="15" fill="#17202A" transform="rotate(-8 39 360)"/>
+              <rect x="30" y="392" width="18" height="6" rx="3" fill="#0E7C7B" transform="rotate(-8 39 360)"/>
+              <path d="M10 300c0-30 22-48 56-48h70c10 0 16 8 16 18v70c0 10-6 18-16 18H66c-34 0-56-22-56-58z" fill="url(#dryer)" stroke="#17202A" stroke-width="2"/>
+              <circle cx="62" cy="304" r="30" fill="none" stroke="#17202A" stroke-width="1.4"/>
+              <circle cx="62" cy="304" r="20" fill="none" stroke="#0E7C7B" stroke-width="1" stroke-dasharray="3 4" class="fan"/>
+              <path d="M152 262h36c6 0 10 4 10 10v62c0 6-4 10-10 10h-36z" fill="#17202A"/>
+              <path d="M198 270l14 4v54l-14 4z" fill="#0E7C7B"/>
+            </g></g>
+            <g class="tag tag-a"><path d="M478 470h56" stroke="#17202A" stroke-width=".8"/><circle cx="476" cy="470" r="3" fill="#0E7C7B"/><text x="540" y="466" class="tag-t" data-i18n="s.tagBlow">Blow-dry</text><text x="540" y="482" class="tag-s">60 min</text></g>
+          </svg>
+          <figure class="hero-inset ph" style="--ph-bg:linear-gradient(160deg,#9FD9D5,#0E7C7B 70%,#17202A)">
+            <img data-photo="salonHero" data-w="600" alt="A stylist blow-drying a client's hair" data-i18n-attr="alt=s.altHero" width="300" height="400">
+          </figure>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#services" aria-label="Scroll to services" data-i18n-attr="aria-label=s.scrollCue"><span></span></a>
+    </section>
+
+    <div class="marquee mq" aria-hidden="true">
+      <div class="marquee-track"><span data-i18n="s.mq1">Cut &amp; finish</span><i>✦</i><span data-i18n="s.mq2">Full colour</span><i>✦</i><span class="o">Balayage</span><i>✦</i><span data-i18n="s.mq4">Brow lamination</span><i>✦</i><span data-i18n="s.mq5">Lash lift</span><i>✦</i><span class="o" data-i18n="s.mq6">Bridal</span><i>✦</i></div>
+      <div class="marquee-track"><span data-i18n="s.mq1">Cut &amp; finish</span><i>✦</i><span data-i18n="s.mq2">Full colour</span><i>✦</i><span class="o">Balayage</span><i>✦</i><span data-i18n="s.mq4">Brow lamination</span><i>✦</i><span data-i18n="s.mq5">Lash lift</span><i>✦</i><span class="o" data-i18n="s.mq6">Bridal</span><i>✦</i></div>
+    </div>
+
+    <!-- Services and prices -->
+    <section class="services" id="services" data-track-section="Services">
+      <div class="wrap svc-grid">
+        <div class="svc-side">
+          <p class="eyebrow" data-reveal><span>01</span> <span data-i18n="s.svcEyebrow">Services &amp; prices</span></p>
+          <h2 class="h2" data-reveal="blur" data-i18n="s.svcTitle">The menu, <em>with prices</em></h2>
+          <p class="body-l" data-reveal data-i18n="s.svcLede">Every appointment starts with a short consultation. Prices include the finish. Pay by card on the day.</p>
+          <figure class="svc-photo ph" data-reveal="mask" style="--ph-bg:linear-gradient(170deg,#E9DCCB,#B98E6B 60%,#3A2A22)">
+            <img data-photo="salonColour" data-parallax="0.08" alt="A client having her hair coloured" data-i18n-attr="alt=s.altColour" loading="lazy" width="600" height="760">
+            <figcaption data-i18n="s.capColour">Colour, root to tip</figcaption>
+          </figure>
+        </div>
+
+        <div class="menu">
+          <div class="menu-group" data-reveal>
+            <h3 class="menu-h" data-i18n="s.grpHair">Hair</h3>
+            <ul class="menu-list">
+              <li class="item">
+                <div class="item-top"><h4 data-i18n="s.cutName">Cut and finish</h4><span class="leader" aria-hidden="true"></span><span class="price" data-i18n="s.cutPrice">£55</span></div>
+                <p class="item-meta"><span data-i18n="s.min60">60 min</span> · <span data-i18n="s.cutWho">with Inês or Kai</span></p>
+                <p class="item-desc" data-i18n="s.cutDesc">Consultation, wash, cut and blow-dry.</p>
+                <a class="item-book" href="#book" data-book="Cut and finish"><span data-i18n="s.book">Book</span> <i aria-hidden="true">→</i></a>
+              </li>
+              <li class="item">
+                <div class="item-top"><h4 data-i18n="s.colName">Full colour</h4><span class="leader" aria-hidden="true"></span><span class="price" data-i18n="s.colPrice">£95</span></div>
+                <p class="item-meta"><span data-i18n="s.min120">2 hours</span> · <span data-i18n="s.colWho">with Kai</span> · <span class="tag-dep" data-i18n="s.colDep">£20 deposit</span></p>
+                <p class="item-desc" data-i18n="s.colDesc">Root to tip, with toner and finish. Patch test 48 hours before.</p>
+                <a class="item-book" href="#book" data-book="Full colour"><span data-i18n="s.book">Book</span> <i aria-hidden="true">→</i></a>
+              </li>
+              <li class="item">
+                <div class="item-top"><h4>Balayage</h4><span class="leader" aria-hidden="true"></span><span class="price" data-i18n="s.balPrice">£160</span></div>
+                <p class="item-meta"><span data-i18n="s.min180">3 hours</span> · <span data-i18n="s.balWho">with Kai or Inês</span> · <span class="tag-dep" data-i18n="s.balDep">£40 deposit</span></p>
+                <p class="item-desc" data-i18n="s.balDesc">Hand-painted highlights, toner, cut and finish. Natural and low-maintenance.</p>
+                <a class="item-book" href="#book" data-book="Balayage"><span data-i18n="s.book">Book</span> <i aria-hidden="true">→</i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-group" data-reveal>
+            <h3 class="menu-h" data-i18n="s.grpBrows">Brows &amp; lashes</h3>
+            <ul class="menu-list">
+              <li class="item">
+                <div class="item-top"><h4 data-i18n="s.browName">Brow lamination and tint</h4><span class="leader" aria-hidden="true"></span><span class="price" data-i18n="s.browPrice">£48</span></div>
+                <p class="item-meta"><span data-i18n="s.min45">45 min</span> · <span data-i18n="s.leahWho">with Leah</span></p>
+                <p class="item-desc" data-i18n="s.browDesc">Shape, lamination and tint. Patch test 48 hours before.</p>
+                <a class="item-book" href="#book" data-book="Brow lamination and tint"><span data-i18n="s.book">Book</span> <i aria-hidden="true">→</i></a>
+              </li>
+              <li class="item">
+                <div class="item-top"><h4 data-i18n="s.lashName">Lash lift and tint</h4><span class="leader" aria-hidden="true"></span><span class="price" data-i18n="s.lashPrice">£52</span></div>
+                <p class="item-meta"><span data-i18n="s.min60">60 min</span> · <span data-i18n="s.leahWho">with Leah</span></p>
+                <p class="item-desc" data-i18n="s.lashDesc">Lifted, tinted lashes that last six to eight weeks.</p>
+                <a class="item-book" href="#book" data-book="Lash lift and tint"><span data-i18n="s.book">Book</span> <i aria-hidden="true">→</i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-group" data-reveal>
+            <h3 class="menu-h" data-i18n="s.grpBefore">Before colour</h3>
+            <ul class="menu-list">
+              <li class="item">
+                <div class="item-top"><h4 data-i18n="s.patchName">Patch test</h4><span class="leader" aria-hidden="true"></span><span class="price" data-i18n="s.free">Free</span></div>
+                <p class="item-meta"><span data-i18n="s.min10">10 min</span> · <span data-i18n="s.anyWho">with anyone in the team</span></p>
+                <p class="item-desc" data-i18n="s.patchDesc">Needed 48 hours before any colour or tint, brows and lashes included.</p>
+                <a class="item-book" href="#book" data-book="Patch test"><span data-i18n="s.book">Book</span> <i aria-hidden="true">→</i></a>
+              </li>
+            </ul>
+          </div>
+          <a class="bridal" href="#enquire" data-reveal>
+            <span class="bridal-k" data-i18n="s.bridalK">Bridal</span>
+            <span class="bridal-t" data-i18n="s.bridalT">Trials in the studio, and we come to you on the day, within 20 miles.</span>
+            <span class="bridal-go" data-i18n="s.bridalGo">Ask for the bridal pack →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- The craft: scissors snip across the strands as you scroll -->
+    <section class="craft" id="craft" data-track-section="The craft">
+      <div class="craft-pin">
+        <div class="wrap craft-grid">
+          <div class="craft-copy">
+            <p class="eyebrow"><span>02</span> <span data-i18n="s.craftEyebrow">The craft</span></p>
+            <h2 class="h2" data-i18n="s.craftTitle">A clean line, <em>one snip at a time</em></h2>
+            <ol class="craft-steps" data-craft-steps>
+              <li class="is-on"><b>01</b><div><h3 data-i18n="s.st1">Consult</h3><p data-i18n="s.st1t">We talk first: how you wear it, and how long you give it in the morning.</p></div></li>
+              <li><b>02</b><div><h3 data-i18n="s.st2">Cut</h3><p data-i18n="s.st2t">Wet or dry, depending on your hair. Never rushed, never a production line.</p></div></li>
+              <li><b>03</b><div><h3 data-i18n="s.st3">Finish</h3><p data-i18n="s.st3t">A blow-dry, and a few honest tips so it looks this good at home.</p></div></li>
+            </ol>
+          </div>
+          <div class="craft-art" aria-hidden="true">
+            <svg viewBox="0 0 640 560" data-snip-scene>
+              <defs>
+                <linearGradient id="cutStrand" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#17202A"/><stop offset=".7" stop-color="#0E7C7B"/><stop offset="1" stop-color="#5FBDB8"/></linearGradient>
+                <linearGradient id="blade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C9D3D8"/><stop offset=".5" stop-color="#FFFFFF"/><stop offset="1" stop-color="#9AA9B1"/></linearGradient>
+              </defs>
+              <path d="M40 40h560" stroke="#17202A" stroke-width="1" opacity=".25"/>
+              <g data-cut-strands></g>
+              <path class="cut-line" d="M30 330h580" stroke="#0E7C7B" stroke-width="1.2" stroke-dasharray="6 8"/>
+              <path class="cut-done" d="M30 330h580" stroke="#0E7C7B" stroke-width="1.6" data-cut-done/>
+              <g class="scissors" data-scissors>
+                <g data-blade-top>
+                  <path d="M0 0 L120 -8 Q128 -6 120 -2 L4 6 Z" fill="url(#blade)" stroke="#17202A" stroke-width="1.4" stroke-linejoin="round"/>
+                  <path d="M-6 2 C-26 -4 -44 -14 -62 -26" stroke="#17202A" stroke-width="3" fill="none" stroke-linecap="round"/>
+                  <circle cx="-80" cy="-36" r="20" fill="#FBFAF7" stroke="#17202A" stroke-width="3.2"/>
+                </g>
+                <g data-blade-bottom>
+                  <path d="M0 0 L120 8 Q128 6 120 2 L4 -6 Z" fill="url(#blade)" stroke="#17202A" stroke-width="1.4" stroke-linejoin="round"/>
+                  <path d="M-6 -2 C-26 4 -44 14 -62 26" stroke="#17202A" stroke-width="3" fill="none" stroke-linecap="round"/>
+                  <circle cx="-80" cy="36" r="20" fill="#FBFAF7" stroke="#0E7C7B" stroke-width="3.2"/>
+                </g>
+                <circle r="5" fill="#E9DCCB" stroke="#17202A" stroke-width="1.4"/>
+              </g>
+              <g class="craft-tag" data-craft-tag><text x="610" y="380" text-anchor="end" class="tag-t" data-i18n="s.craftTag">Cut and finish · 60 min</text></g>
+            </svg>
+          </div>
+        </div>
+        <div class="craft-progress" aria-hidden="true"><i data-craft-bar></i></div>
+      </div>
+    </section>
+
+    <!-- About and numbers -->
+    <section class="about" data-track-section="About">
+      <div class="wrap about-grid">
+        <figure class="about-photo ph" data-reveal="mask" style="--ph-bg:linear-gradient(200deg,#DDF3F2,#7FC8C3 55%,#0E7C7B)">
+          <img data-photo="salonSalon" data-parallax="0.07" alt="A client relaxing in the salon chair" data-i18n-attr="alt=s.altSalon" loading="lazy" width="700" height="860">
+        </figure>
+        <div class="about-copy">
+          <p class="eyebrow" data-reveal><span>03</span> <span data-i18n="s.aboutEyebrow">The studio</span></p>
+          <h2 class="h2" data-reveal="blur" data-i18n="s.aboutTitle">A small studio <em>with a big diary</em></h2>
+          <p class="body-l" data-reveal data-i18n="s.aboutBody">Inês opened Maré in 2019. Three of us now, one chair at a time, and the kettle always on. We remind you when you're due, text if something frees up, and keep your colour notes so nobody has to guess.</p>
+          <dl class="stats" data-stagger>
+            <div><dt data-i18n="s.stat1">average client review</dt><dd><span data-count="4.8" data-decimals="1">4.8</span><small>★</small></dd></div>
+            <div><dt data-i18n="s.stat2">patch test before any colour</dt><dd><span data-count="48">48</span><small>h</small></dd></div>
+            <div><dt data-i18n="s.stat3">we travel for weddings</dt><dd><span data-count="20" data-count-pt="32">20</span><small data-i18n="s.miles">mi</small></dd></div>
+            <div><dt data-i18n="s.stat4">artists, one chair at a time</dt><dd><span data-count="3">3</span></dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="work" id="work" data-track-section="Gallery">
+      <div class="wrap">
+        <div class="work-head">
+          <p class="eyebrow" data-reveal><span>04</span> <span data-i18n="s.workEyebrow">Recent work</span></p>
+          <h2 class="h2" data-reveal="blur" data-i18n="s.workTitle">Soft colour, <em>sharp lines</em></h2>
+        </div>
+        <div class="gallery">
+          <figure class="g g1 ph" data-reveal="mask" style="--ph-bg:linear-gradient(160deg,#E9DCCB,#A76D4B 70%,#3A2A22)"><img data-photo="salonTint" data-parallax="0.06" alt="Hair colour being painted on" data-i18n-attr="alt=s.altTint" loading="lazy" width="600" height="800"><figcaption data-i18n="s.g1">Colour</figcaption></figure>
+          <figure class="g g2 ph" data-reveal="mask" style="--ph-bg:linear-gradient(200deg,#DDF3F2,#5FBDB8 60%,#0E7C7B)"><img data-photo="salonStyling" data-parallax="0.05" alt="A stylist finishing a client's hair" data-i18n-attr="alt=s.altStyling" loading="lazy" width="800" height="600"><figcaption data-i18n="s.g2">Finish</figcaption></figure>
+          <figure class="g g3 ph" data-reveal="mask" style="--ph-bg:linear-gradient(170deg,#F4FBFA,#B9E3DF 50%,#17202A)"><img data-photo="salonWaves" data-parallax="0.07" alt="Styled waves, seen from behind" data-i18n-attr="alt=s.altWaves" loading="lazy" width="600" height="800"><figcaption data-i18n="s.g3">Waves</figcaption></figure>
+          <figure class="g g4 ph" data-reveal="mask" style="--ph-bg:linear-gradient(140deg,#E9DCCB,#D7B8A0 50%,#17202A)"><img data-photo="salonLashes" data-parallax="0.05" alt="A lash lift in progress" data-i18n-attr="alt=s.altLashes" loading="lazy" width="800" height="600"><figcaption data-i18n="s.g4">Lashes</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team" id="team" data-track-section="Team">
+      <div class="wrap">
+        <div class="team-head">
+          <p class="eyebrow" data-reveal><span>05</span> <span data-i18n="s.teamEyebrow">The team</span></p>
+          <h2 class="h2" data-reveal="blur" data-i18n="s.teamTitle">Who you'll <em>sit with</em></h2>
+        </div>
+        <ul class="people" data-stagger>
+          <li class="person"><div class="portrait p1" aria-hidden="true"><span>I</span><svg viewBox="0 0 200 260"><path d="M30 250C40 170 80 140 100 60s60-50 70 0"/></svg></div><h3>Inês Moreira</h3><p class="role" data-i18n="s.r1">Owner and senior stylist</p><p data-i18n="s.p1">Opened Maré in 2019. Precision cuts, and the bridal mornings.</p></li>
+          <li class="person"><div class="portrait p2" aria-hidden="true"><span>K</span><svg viewBox="0 0 200 260"><path d="M20 230C60 210 70 120 110 110s50-80 70-90"/></svg></div><h3>Kai Bennett</h3><p class="role" data-i18n="s.r2">Colourist</p><p data-i18n="s.p2">Copper, balayage and colour corrections. Kai does your patch test too.</p></li>
+          <li class="person"><div class="portrait p3" aria-hidden="true"><span>L</span><svg viewBox="0 0 200 260"><path d="M30 60c30 20 110 20 140 0M40 120c40 30 80 30 120 0"/></svg></div><h3>Leah Doran</h3><p class="role" data-i18n="s.r3">Brow and lash artist</p><p data-i18n="s.p3">Lamination, tints and lifts. Quick, gentle, and honest about shape.</p></li>
+          <li class="person"><div class="portrait p4" aria-hidden="true"><span>A</span><svg viewBox="0 0 200 260"><path d="M20 140c40-60 120-60 160 0s-120 60-160 0"/></svg></div><h3>Amy Clarke</h3><p class="role" data-i18n="s.r4">Front desk</p><p data-i18n="s.p4">Answers the messages, moves bookings, and keeps the kettle on.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Reviews (from the demo account) -->
+    <section class="reviews" data-track-section="Reviews">
+      <div class="wrap reviews-grid">
+        <div class="rev-side">
+          <p class="eyebrow light" data-reveal><span>06</span> <span data-i18n="s.revEyebrow">Kind words</span></p>
+          <p class="rev-score" data-reveal><b><span data-count="4.8" data-decimals="1">4.8</span></b><span class="stars" aria-hidden="true">★★★★★</span><small data-i18n="s.revScore">average from client reviews in the demo account</small></p>
+        </div>
+        <div class="rev-stage" data-quotes>
+          <figure class="quote is-on"><blockquote data-i18n="s.q1">“Kai is a genius with copper. Booking online is so easy and I get a reminder the day before.”</blockquote><figcaption>Hollie G. <span>· Manchester</span></figcaption></figure>
+          <figure class="quote"><blockquote data-i18n="s.q2">“Best balayage I have had in Manchester. Lovely studio and great coffee.”</blockquote><figcaption>Zara M. <span>· Ancoats</span></figcaption></figure>
+          <figure class="quote"><blockquote data-i18n="s.q3">“Leah did my brows and lashes. Quick, gentle and they look amazing.”</blockquote><figcaption>Megan P. <span>· Didsbury</span></figcaption></figure>
+          <figure class="quote"><blockquote data-i18n="s.q4">“Good cut every time. Wish there were more evening slots, but they always text if something frees up.”</blockquote><figcaption>Ollie R. <span>· Salford · ★★★★</span></figcaption></figure>
+          <div class="quote-nav" role="group" aria-label="Reviews" data-i18n-attr="aria-label=s.revNav">
+            <button type="button" aria-label="Review 1" aria-pressed="true"><i></i></button>
+            <button type="button" aria-label="Review 2" aria-pressed="false"><i></i></button>
+            <button type="button" aria-label="Review 3" aria-pressed="false"><i></i></button>
+            <button type="button" aria-label="Review 4" aria-pressed="false"><i></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" data-track-section="FAQ">
+      <div class="wrap faq-grid">
+        <div>
+          <p class="eyebrow" data-reveal><span>07</span> <span data-i18n="s.faqEyebrow">Good to know</span></p>
+          <h2 class="h2" data-reveal="blur" data-i18n="s.faqTitle">Before you <em>book</em></h2>
+        </div>
+        <div class="faq-list" data-stagger>
+          <details data-faq><summary><span data-i18n="s.f1q">Do I need a patch test?</span><i class="faq-x" aria-hidden="true"></i></summary><div class="faq-a"><p data-i18n="s.f1a">Yes, for any colour or tint, brow and lash tints included, at least 48 hours before. It takes ten minutes, it's free and you can book it online. Had one with us in the last six months? You're all set.</p></div></details>
+          <details data-faq><summary><span data-i18n="s.f2q">Do you take a deposit?</span><i class="faq-x" aria-hidden="true"></i></summary><div class="faq-a"><p data-i18n="s.f2a">Only for the long colour appointments: £20 for a full colour and £40 for balayage, paid online when you book and taken off the price on the day.</p></div></details>
+          <details data-faq><summary><span data-i18n="s.f3q">What if I need to cancel or move?</span><i class="faq-x" aria-hidden="true"></i></summary><div class="faq-a"><p data-i18n="s.f3a">Move or cancel free up to 48 hours before, with the link in your confirmation. Inside 48 hours we keep the deposit, because a three-hour slot is hard to fill at short notice.</p></div></details>
+          <details data-faq><summary><span data-i18n="s.f4q">I'm running late. What happens?</span><i class="faq-x" aria-hidden="true"></i></summary><div class="faq-a"><p data-i18n="s.f4a">Send us a message. We'll still fit you in if we can, or move you to the next free time without any fuss.</p></div></details>
+          <details data-faq><summary><span data-i18n="s.f5q">Do you do bridal hair?</span><i class="faq-x" aria-hidden="true"></i></summary><div class="faq-a"><p data-i18n="s.f5a">Yes. Trials in the studio, and on the morning we come to you within 20 miles. Send us the date and how many of you, and we'll send the bridal pack.</p></div></details>
+          <details data-faq><summary><span data-i18n="s.f6q">How do I pay?</span><i class="faq-x" aria-hidden="true"></i></summary><div class="faq-a"><p data-i18n="s.f6a">By card on the day. Deposits are paid online when you book.</p></div></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking: straight into the Maré demo diary -->
+    <section class="book" id="book" data-track-section="Booking">
+      <div class="wrap book-grid">
+        <div class="book-side">
+          <p class="eyebrow" data-reveal><span>08</span> <span data-i18n="s.bookEyebrow">Book</span></p>
+          <h2 class="h2" data-reveal="blur" data-i18n="s.bookTitle">Book an <em>appointment</em></h2>
+          <p class="body-l" data-reveal data-i18n="s.bookLede">Pick a service, a stylist and a time. You'll get a confirmation straight away and a reminder the day before.</p>
+          <dl class="facts" data-reveal>
+            <div><dt data-i18n="c.where">Where</dt><dd>22 Oldham Street, Manchester M1 1JN</dd></div>
+            <div><dt data-i18n="c.hours">Hours</dt><dd data-i18n="c.hoursShort">Mon–Fri 9am–7pm · Sat 9am–5pm · Sun closed</dd></div>
+            <div><dt data-i18n="s.depT">Deposits</dt><dd data-i18n="s.depV">£20 full colour, £40 balayage, taken off the price</dd></div>
+            <div><dt data-i18n="s.chgT">Changes</dt><dd data-i18n="s.chgV">Free up to 48 hours before</dd></div>
+          </dl>
+          <p class="open" data-open-now data-reveal><span class="dot" aria-hidden="true"></span><span data-open-text></span></p>
+        </div>
+        <div class="book-widget" data-reveal="scale"><div data-booking></div></div>
+      </div>
+    </section>
+
+    <!-- Enquiry -->
+    <section class="enquire" id="enquire" data-track-section="Enquiry form">
+      <div class="wrap enq-grid">
+        <div class="enq-copy">
+          <h2 class="h2" data-reveal="blur" data-i18n="s.enqTitle">Bridal or <em>group booking?</em></h2>
+          <p class="body-l" data-reveal data-i18n="s.enqLede">Tell us the date and how many of you, and we'll send a plan. Amy or Inês will reply the same day.</p>
+          <svg class="enq-art" viewBox="0 0 300 120" aria-hidden="true" data-enq-art><path d="M10 60c40-40 80 40 120 0s80-40 120 0 30 20 40 10"/><path d="M10 80c40-40 80 40 120 0s80-40 120 0" opacity=".5"/><path d="M10 40c40-40 80 40 120 0s80-40 120 0" opacity=".3"/></svg>
+        </div>
+        <form class="enq-form" data-enquiry="Salon enquiry sent" data-style-name="Salon (Maré Hair &amp; Beauty)" data-track-ignore novalidate data-reveal>
+          <div class="form-two">
+            <label class="field"><span data-i18n="c.fName">Name</span><input name="fullName" autocomplete="name" required></label>
+            <label class="field"><span data-i18n="c.fMobile">Mobile</span><input name="phone" type="tel" autocomplete="tel"></label>
+          </div>
+          <label class="field"><span data-i18n="c.fEmail">Email</span><input name="email" type="email" autocomplete="email" required></label>
+          <div class="form-two">
+            <label class="field"><span data-i18n="c.fInterest">Interested in</span>
+              <select name="service">
+                <option data-i18n="s.o1">Bridal hair</option>
+                <option data-i18n="s.o2">Group booking</option>
+                <option data-i18n="s.o3">Colour consultation</option>
+                <option data-i18n="s.o4">Gift voucher</option>
+                <option data-i18n="s.o5">Something else</option>
+              </select>
+            </label>
+            <label class="field"><span data-i18n="c.fDate">Date (if you have one)</span><input name="date" type="date"></label>
+          </div>
+          <label class="field"><span data-i18n="c.fMessage">Your message</span><textarea name="message" rows="4"></textarea></label>
+          <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="form-foot">
+            <button class="btn btn-teal btn-lg" type="submit" data-magnetic data-i18n="c.fSend">Send message</button>
+            <p class="status" data-status role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="visit" data-track-section="Footer">
+    <div class="wrap">
+      <p class="foot-word" aria-hidden="true">Maré</p>
+      <div class="foot-grid">
+        <div><h3 data-i18n="s.fVisit">Visit</h3><p>22 Oldham Street<br>Manchester M1 1JN</p><p class="open" data-open-now><span class="dot" aria-hidden="true"></span><span data-open-text></span></p></div>
+        <div><h3 data-i18n="c.hours">Hours</h3>
+          <dl class="hours">
+            <div><dt data-i18n="c.monFri">Monday to Friday</dt><dd data-i18n="c.h9to7">9am to 7pm</dd></div>
+            <div><dt data-i18n="c.sat">Saturday</dt><dd data-i18n="c.h9to5">9am to 5pm</dd></div>
+            <div><dt data-i18n="c.sun">Sunday</dt><dd data-i18n="c.closed">Closed</dd></div>
+          </dl>
+        </div>
+        <div><h3 data-i18n="s.fContact">Contact</h3><p><a href="tel:+447700900600">07700 900600</a><br><a href="mailto:hello@mare-studio.example">hello@mare-studio.example</a></p><p class="foot-small" data-i18n="c.demoDetails">Address, phone and hours are the demo account's, shared by all four styles.</p></div>
+        <div class="foot-demo"><p data-i18n="c.footDemo">A demo website for a made-up business, made by <a href="https://www.autisync.com" target="_blank" rel="noopener">Autisync</a>. Bookings and messages go into the demo CRM.</p></div>
+      </div>
+      <p class="foot-base"><span>&copy; <span data-year>2026</span> Maré Hair &amp; Beauty (demo)</span><a href="#top" data-i18n="c.footTop">Back to top</a></p>
+    </div>
+  </footer>
+
+  <!--@switcher:salon-->
+  <!--@tail:salon-->
+</body>
+</html>
